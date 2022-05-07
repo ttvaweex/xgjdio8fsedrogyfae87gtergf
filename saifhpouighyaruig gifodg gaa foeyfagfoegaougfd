@@ -1,0 +1,1097 @@
+local MobiliusX = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Corner = Instance.new("UICorner")
+local Tab = Instance.new("Frame")
+local Corner_2 = Instance.new("UICorner")
+local Underline = Instance.new("Frame")
+local Icon = Instance.new("ImageLabel")
+local UiName = Instance.new("TextLabel")
+local Respawn = Instance.new("ImageButton")
+local Close = Instance.new("TextButton")
+local Minimize = Instance.new("TextButton")
+local House = Instance.new("TextButton")
+local Corner_3 = Instance.new("UICorner")
+local Circle = Instance.new("ImageLabel")
+local Category = Instance.new("TextLabel")
+local CatnipFarm = Instance.new("TextButton")
+local Corner_4 = Instance.new("UICorner")
+local Circle_2 = Instance.new("ImageLabel")
+local SwordStand = Instance.new("TextButton")
+local Corner_5 = Instance.new("UICorner")
+local Circle_3 = Instance.new("ImageLabel")
+local FishingStand = Instance.new("TextButton")
+local Corner_6 = Instance.new("UICorner")
+local Circle_4 = Instance.new("ImageLabel")
+local Mailbox = Instance.new("TextButton")
+local Corner_7 = Instance.new("UICorner")
+local Circle_5 = Instance.new("ImageLabel")
+local Arceus = Instance.new("ImageLabel")
+local Credits = Instance.new("TextLabel")
+local Open = Instance.new("TextButton")
+local Corner_8 = Instance.new("UICorner")
+
+MobiliusX.Name = "MobiliusX"
+MobiliusX.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+MobiliusX.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+MobiliusX.ResetOnSpawn = false
+
+Main.Name = "Main"
+Main.Parent = MobiliusX
+Main.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Main.Position = UDim2.new(0.140000001, 0, 0.34799999, 0)
+Main.Size = UDim2.new(0, 337, 0, 347)
+
+Corner.Name = "Corner"
+Corner.Parent = Main
+
+Tab.Name = "Tab"
+Tab.Parent = Main
+Tab.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Tab.Size = UDim2.new(0, 337, 0, 42)
+
+Corner_2.Name = "Corner"
+Corner_2.Parent = Tab
+
+Underline.Name = "Underline"
+Underline.Parent = Tab
+Underline.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Underline.BorderSizePixel = 0
+Underline.Position = UDim2.new(0, 0, 0.857142866, 0)
+Underline.Size = UDim2.new(0, 337, 0, 6)
+
+Icon.Name = "Icon"
+Icon.Parent = Tab
+Icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Icon.BackgroundTransparency = 1.000
+Icon.Position = UDim2.new(0, 0, 0.190476194, 0)
+Icon.Size = UDim2.new(0, 30, 0, 26)
+Icon.Image = "http://www.roblox.com/asset/?id=5261794391"
+
+UiName.Name = "UiName"
+UiName.Parent = Tab
+UiName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UiName.BackgroundTransparency = 1.000
+UiName.Position = UDim2.new(0.0890207738, 0, 0, 0)
+UiName.Size = UDim2.new(0, 307, 0, 42)
+UiName.Font = Enum.Font.Ubuntu
+UiName.Text = "Mobilius X - Raise a Floppa"
+UiName.TextColor3 = Color3.fromRGB(255, 255, 255)
+UiName.TextSize = 20.000
+UiName.TextWrapped = true
+UiName.TextXAlignment = Enum.TextXAlignment.Left
+
+Respawn.Name = "Respawn"
+Respawn.Parent = Tab
+Respawn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Respawn.BackgroundTransparency = 1.000
+Respawn.Position = UDim2.new(0.772000015, 0, 0.25, 0)
+Respawn.Size = UDim2.new(0, 20, 0, 20)
+Respawn.Image = "http://www.roblox.com/asset/?id=9560479208"
+
+Close.Name = "Close"
+Close.Parent = Tab
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.910979211, 0, 0.142857149, 0)
+Close.Size = UDim2.new(0, 24, 0, 30)
+Close.Font = Enum.Font.TitilliumWeb
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 35.000
+
+Minimize.Name = "Minimize"
+Minimize.Parent = Tab
+Minimize.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Minimize.BackgroundTransparency = 1.000
+Minimize.Position = UDim2.new(0.846183956, 0, 0.226190478, 0)
+Minimize.Size = UDim2.new(0, 21, 0, 23)
+Minimize.Font = Enum.Font.TitilliumWeb
+Minimize.Text = "-"
+Minimize.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimize.TextSize = 35.000
+
+House.Name = "House"
+House.Parent = Main
+House.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+House.Position = UDim2.new(0.0178041551, 0, 0.181556195, 0)
+House.Size = UDim2.new(0, 325, 0, 42)
+House.Font = Enum.Font.Arial
+House.Text = "House"
+House.TextColor3 = Color3.fromRGB(255, 255, 255)
+House.TextSize = 20.000
+
+Corner_3.Name = "Corner"
+Corner_3.Parent = House
+
+Circle.Name = "Circle"
+Circle.Parent = game.StarterGui.MobiliusX.Main.House.RippleEffect
+Circle.AnchorPoint = Vector2.new(0.5, 0.5)
+Circle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Circle.BackgroundTransparency = 1.000
+Circle.Position = UDim2.new(0.5, 0, 0.5, 0)
+Circle.ZIndex = 10
+Circle.Image = "rbxassetid://266543268"
+Circle.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Circle.ImageTransparency = 0.500
+Circle.ScaleType = Enum.ScaleType.Tile
+
+Category.Name = "Category"
+Category.Parent = Main
+Category.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Category.BackgroundTransparency = 1.000
+Category.Position = UDim2.new(0, 0, 0.121037461, 0)
+Category.Size = UDim2.new(0, 337, 0, 21)
+Category.Font = Enum.Font.SourceSans
+Category.Text = "Teleports:"
+Category.TextColor3 = Color3.fromRGB(186, 186, 186)
+Category.TextSize = 14.000
+
+CatnipFarm.Name = "CatnipFarm"
+CatnipFarm.Parent = Main
+CatnipFarm.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+CatnipFarm.Position = UDim2.new(0.0178041551, 0, 0.331412107, 0)
+CatnipFarm.Size = UDim2.new(0, 325, 0, 42)
+CatnipFarm.Font = Enum.Font.Arial
+CatnipFarm.Text = "Catnip Farm"
+CatnipFarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+CatnipFarm.TextSize = 20.000
+
+Corner_4.Name = "Corner"
+Corner_4.Parent = CatnipFarm
+
+Circle_2.Name = "Circle"
+Circle_2.Parent = game.StarterGui.MobiliusX.Main.CatnipFarm.RippleEffect
+Circle_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Circle_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Circle_2.BackgroundTransparency = 1.000
+Circle_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+Circle_2.ZIndex = 10
+Circle_2.Image = "rbxassetid://266543268"
+Circle_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Circle_2.ImageTransparency = 0.500
+Circle_2.ScaleType = Enum.ScaleType.Tile
+
+SwordStand.Name = "SwordStand"
+SwordStand.Parent = Main
+SwordStand.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+SwordStand.Position = UDim2.new(0.0178041551, 0, 0.481268018, 0)
+SwordStand.Size = UDim2.new(0, 325, 0, 42)
+SwordStand.Font = Enum.Font.Arial
+SwordStand.Text = "Sword Stand"
+SwordStand.TextColor3 = Color3.fromRGB(255, 255, 255)
+SwordStand.TextSize = 20.000
+
+Corner_5.Name = "Corner"
+Corner_5.Parent = SwordStand
+
+Circle_3.Name = "Circle"
+Circle_3.Parent = game.StarterGui.MobiliusX.Main.SwordStand.RippleEffect
+Circle_3.AnchorPoint = Vector2.new(0.5, 0.5)
+Circle_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Circle_3.BackgroundTransparency = 1.000
+Circle_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+Circle_3.ZIndex = 10
+Circle_3.Image = "rbxassetid://266543268"
+Circle_3.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Circle_3.ImageTransparency = 0.500
+Circle_3.ScaleType = Enum.ScaleType.Tile
+
+FishingStand.Name = "FishingStand"
+FishingStand.Parent = Main
+FishingStand.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+FishingStand.Position = UDim2.new(0.0178041551, 0, 0.6311239, 0)
+FishingStand.Size = UDim2.new(0, 325, 0, 42)
+FishingStand.Font = Enum.Font.Arial
+FishingStand.Text = "Fishing Stand"
+FishingStand.TextColor3 = Color3.fromRGB(255, 255, 255)
+FishingStand.TextSize = 20.000
+
+Corner_6.Name = "Corner"
+Corner_6.Parent = FishingStand
+
+Circle_4.Name = "Circle"
+Circle_4.Parent = game.StarterGui.MobiliusX.Main.FishingStand.RippleEffect
+Circle_4.AnchorPoint = Vector2.new(0.5, 0.5)
+Circle_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Circle_4.BackgroundTransparency = 1.000
+Circle_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+Circle_4.ZIndex = 10
+Circle_4.Image = "rbxassetid://266543268"
+Circle_4.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Circle_4.ImageTransparency = 0.500
+Circle_4.ScaleType = Enum.ScaleType.Tile
+
+Mailbox.Name = "Mailbox"
+Mailbox.Parent = Main
+Mailbox.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Mailbox.Position = UDim2.new(0.0178041551, 0, 0.780979812, 0)
+Mailbox.Size = UDim2.new(0, 325, 0, 42)
+Mailbox.Font = Enum.Font.Arial
+Mailbox.Text = "Mailbox"
+Mailbox.TextColor3 = Color3.fromRGB(255, 255, 255)
+Mailbox.TextSize = 20.000
+
+Corner_7.Name = "Corner"
+Corner_7.Parent = Mailbox
+
+Circle_5.Name = "Circle"
+Circle_5.Parent = game.StarterGui.MobiliusX.Main.Mailbox.RippleEffect
+Circle_5.AnchorPoint = Vector2.new(0.5, 0.5)
+Circle_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Circle_5.BackgroundTransparency = 1.000
+Circle_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+Circle_5.ZIndex = 10
+Circle_5.Image = "rbxassetid://266543268"
+Circle_5.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Circle_5.ImageTransparency = 0.500
+Circle_5.ScaleType = Enum.ScaleType.Tile
+
+Arceus.Name = "Arceus"
+Arceus.Parent = Main
+Arceus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Arceus.BackgroundTransparency = 1.000
+Arceus.Position = UDim2.new(0.0534124635, 0, 0.048991356, 0)
+Arceus.Size = UDim2.new(0, 301, 0, 313)
+Arceus.Image = "http://www.roblox.com/asset/?id=492229615"
+Arceus.ImageTransparency = 1.000
+
+Credits.Name = "Credits"
+Credits.Parent = Main
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.Position = UDim2.new(0, 0, 0.902017295, 0)
+Credits.Size = UDim2.new(0, 337, 0, 34)
+Credits.Font = Enum.Font.SourceSans
+Credits.Text = "All Ui and Scripting by ac1xpc5"
+Credits.TextColor3 = Color3.fromRGB(155, 155, 155)
+Credits.TextSize = 14.000
+
+Open.Name = "Open"
+Open.Parent = MobiliusX
+Open.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Open.Position = UDim2.new(-1.5, 0, 0.652999997, 0)
+Open.Size = UDim2.new(0, 126, 0, 47)
+Open.Font = Enum.Font.SourceSans
+Open.Text = "Open Mobilius X"
+Open.TextColor3 = Color3.fromRGB(255, 255, 255)
+Open.TextSize = 20.000
+
+Corner_8.Name = "Corner"
+Corner_8.Parent = Open
+
+local function HSHXN_fake_script() -- Main.Dragify 
+	local script = Instance.new('LocalScript', Main)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(HSHXN_fake_script)()
+local function BNKR_fake_script() -- Tab.Main 
+	local script = Instance.new('LocalScript', Tab)
+
+	local Minimized = false
+	script.Parent.Respawn.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.Health = 0
+	end)
+	script.Parent.Close.MouseButton1Down:Connect(function()
+	script.Parent.Parent.Parent.Open:Destroy()
+	script.Parent.BackgroundTransparency = 0.1
+	script.Parent.Underline.BackgroundTransparency = 0.1
+	script.Parent.Respawn.ImageTransparency = 0.1
+	script.Parent.Close.TextTransparency = 0.1
+	script.Parent.Minimize.TextTransparency = 0.1
+	script.Parent.Icon.ImageTransparency = 0.1
+	script.Parent.UiName.TextTransparency = 0.1
+	script.Parent.Parent.Mailbox.Transparency = 0.1
+	script.Parent.Parent.House.Transparency = 0.1
+	script.Parent.Parent.CatnipFarm.Transparency = 0.1
+	script.Parent.Parent.SwordStand.Transparency = 0.1
+	script.Parent.Parent.FishingStand.Transparency = 0.1
+	script.Parent.Parent.Category.TextTransparency = 0.1
+	script.Parent.Parent.Credits.TextTransparency = 0.1
+	wait(0.1)
+	script.Parent.BackgroundTransparency = 0.2
+	script.Parent.Underline.BackgroundTransparency = 0.2
+	script.Parent.Respawn.ImageTransparency = 0.2
+	script.Parent.Close.TextTransparency = 0.2
+	script.Parent.Minimize.TextTransparency = 0.2
+	script.Parent.Icon.ImageTransparency = 0.2
+	script.Parent.UiName.TextTransparency = 0.2
+	script.Parent.Parent.Mailbox.Transparency = 0.2
+	script.Parent.Parent.House.Transparency = 0.2
+	script.Parent.Parent.CatnipFarm.Transparency = 0.2
+	script.Parent.Parent.SwordStand.Transparency = 0.2
+	script.Parent.Parent.FishingStand.Transparency = 0.2
+		script.Parent.Parent.Category.TextTransparency = 0.2
+		script.Parent.Parent.Credits.TextTransparency = 0.2
+	wait(0.1)
+	script.Parent.BackgroundTransparency = 0.3
+	script.Parent.Underline.BackgroundTransparency = 0.3
+	script.Parent.Respawn.ImageTransparency = 0.3
+	script.Parent.Close.TextTransparency = 0.3
+	script.Parent.Minimize.TextTransparency = 0.3
+	script.Parent.Icon.ImageTransparency = 0.3
+	script.Parent.UiName.TextTransparency = 0.3
+	script.Parent.Parent.Mailbox.Transparency = 0.3
+	script.Parent.Parent.House.Transparency = 0.3
+	script.Parent.Parent.CatnipFarm.Transparency = 0.3
+	script.Parent.Parent.SwordStand.Transparency = 0.3
+	script.Parent.Parent.FishingStand.Transparency = 0.3
+		script.Parent.Parent.Category.TextTransparency = 0.3
+		script.Parent.Parent.Credits.TextTransparency = 0.3
+	wait(0.1)
+	script.Parent.BackgroundTransparency = 0.4
+	script.Parent.Underline.BackgroundTransparency = 0.4
+	script.Parent.Respawn.ImageTransparency = 0.4
+	script.Parent.Close.TextTransparency = 0.4
+	script.Parent.Minimize.TextTransparency = 0.4
+	script.Parent.Icon.ImageTransparency = 0.4
+	script.Parent.UiName.TextTransparency = 0.4
+	script.Parent.Parent.Mailbox.Transparency = 0.4
+	script.Parent.Parent.House.Transparency = 0.4
+	script.Parent.Parent.CatnipFarm.Transparency = 0.4
+	script.Parent.Parent.SwordStand.Transparency = 0.4
+	script.Parent.Parent.FishingStand.Transparency = 0.4
+		script.Parent.Parent.Category.TextTransparency = 0.4
+		script.Parent.Parent.Credits.TextTransparency = 0.4
+	wait(0.1)
+	script.Parent.BackgroundTransparency = 0.5
+	script.Parent.Underline.BackgroundTransparency = 0.5
+	script.Parent.Respawn.ImageTransparency = 0.5
+	script.Parent.Close.TextTransparency = 0.5
+	script.Parent.Minimize.TextTransparency = 0.5
+	script.Parent.Icon.ImageTransparency = 0.5
+	script.Parent.UiName.TextTransparency = 0.5
+	script.Parent.Parent.Mailbox.Transparency = 0.5
+	script.Parent.Parent.House.Transparency = 0.5
+	script.Parent.Parent.CatnipFarm.Transparency = 0.5
+	script.Parent.Parent.SwordStand.Transparency = 0.5
+	script.Parent.Parent.FishingStand.Transparency = 0.5
+		script.Parent.Parent.Category.TextTransparency = 0.5
+		script.Parent.Parent.Credits.TextTransparency = 0.5
+	wait(0.1)
+	script.Parent.BackgroundTransparency = 0.6
+	script.Parent.Underline.BackgroundTransparency = 0.6
+	script.Parent.Respawn.ImageTransparency = 0.6
+	script.Parent.Close.TextTransparency = 0.6
+	script.Parent.Minimize.TextTransparency = 0.6
+	script.Parent.Icon.ImageTransparency = 0.6
+	script.Parent.UiName.TextTransparency = 0.6
+	script.Parent.Parent.Mailbox.Transparency = 0.6
+	script.Parent.Parent.House.Transparency = 0.6
+	script.Parent.Parent.CatnipFarm.Transparency = 0.6
+	script.Parent.Parent.SwordStand.Transparency = 0.6
+	script.Parent.Parent.FishingStand.Transparency = 0.6
+		script.Parent.Parent.Category.TextTransparency = 0.6
+		script.Parent.Parent.Credits.TextTransparency = 0.6
+	wait(0.1)
+	script.Parent.BackgroundTransparency = 0.7
+	script.Parent.Underline.BackgroundTransparency = 0.7
+	script.Parent.Respawn.ImageTransparency = 0.7
+	script.Parent.Close.TextTransparency = 0.7
+	script.Parent.Minimize.TextTransparency = 0.7
+	script.Parent.Icon.ImageTransparency = 0.7
+	script.Parent.UiName.TextTransparency = 0.7
+	script.Parent.Parent.Mailbox.Transparency = 0.7
+	script.Parent.Parent.House.Transparency = 0.7
+	script.Parent.Parent.CatnipFarm.Transparency = 0.7
+	script.Parent.Parent.SwordStand.Transparency = 0.7
+	script.Parent.Parent.FishingStand.Transparency = 0.7
+		script.Parent.Parent.Category.TextTransparency = 0.7
+		script.Parent.Parent.Credits.TextTransparency = 0.7
+	wait(0.1)
+	script.Parent.BackgroundTransparency = 0.8
+	script.Parent.Underline.BackgroundTransparency = 0.8
+	script.Parent.Respawn.ImageTransparency = 0.8
+	script.Parent.Close.TextTransparency = 0.8
+	script.Parent.Minimize.TextTransparency = 0.8
+	script.Parent.Icon.ImageTransparency = 0.8
+	script.Parent.UiName.TextTransparency = 0.8
+	script.Parent.Parent.Mailbox.Transparency = 0.8
+	script.Parent.Parent.House.Transparency = 0.8
+	script.Parent.Parent.CatnipFarm.Transparency = 0.8
+	script.Parent.Parent.SwordStand.Transparency = 0.8
+	script.Parent.Parent.FishingStand.Transparency = 0.8
+		script.Parent.Parent.Category.TextTransparency = 0.8
+		script.Parent.Parent.Credits.TextTransparency = 0.8
+	wait(0.1)
+	script.Parent.BackgroundTransparency = 0.9
+	script.Parent.Underline.BackgroundTransparency = 0.9
+	script.Parent.Respawn.ImageTransparency = 0.9
+	script.Parent.Close.TextTransparency = 0.9
+	script.Parent.Minimize.TextTransparency = 0.9
+	script.Parent.Icon.ImageTransparency = 0.9
+	script.Parent.UiName.TextTransparency = 0.9
+	script.Parent.Parent.Mailbox.Transparency = 0.9
+	script.Parent.Parent.House.Transparency = 0.9
+	script.Parent.Parent.CatnipFarm.Transparency = 0.9
+	script.Parent.Parent.SwordStand.Transparency = 0.9
+	script.Parent.Parent.FishingStand.Transparency = 0.9
+	script.Parent.Parent.Category.TextTransparency = 0.9
+	script.Parent.Parent.Credits.TextTransparency = 0.9
+	wait(0.1)
+	script.Parent.BackgroundTransparency = 1
+	script.Parent.Underline:Destroy()
+	script.Parent.Respawn:Destroy()
+	script.Parent.Close:Destroy()
+	script.Parent.Minimize:Destroy()
+	script.Parent.Icon:Destroy()
+	script.Parent.UiName:Destroy()
+	script.Parent.Parent.House:Destroy()
+	script.Parent.Parent.Mailbox:Destroy()
+	script.Parent.Parent.CatnipFarm:Destroy()
+	script.Parent.Parent.SwordStand:Destroy()
+	script.Parent.Parent.FishingStand:Destroy()
+	script.Parent.Parent.Category:Destroy()
+	script.Parent.Parent.Credits:Destroy()
+	wait(0.7)
+	script.Parent.Parent.Arceus.ImageTransparency = 0.9
+	wait(0.1)
+	script.Parent.Parent.Arceus.ImageTransparency = 0.8
+	wait(0.1)
+	script.Parent.Parent.Arceus.ImageTransparency = 0.7
+	wait(0.1)
+	script.Parent.Parent.Arceus.ImageTransparency = 0.6
+	wait(0.1)
+	script.Parent.Parent.Arceus.ImageTransparency = 0.5
+	wait(0.1)
+	script.Parent.Parent.Arceus.ImageTransparency = 0.4
+	wait(0.1)
+	script.Parent.Parent.Arceus.ImageTransparency = 0.3
+	wait(0.1)
+	script.Parent.Parent.Arceus.ImageTransparency = 0.2
+	wait(0.1)
+	script.Parent.Parent.Arceus.ImageTransparency = 0.1
+	wait(0.1)
+	script.Parent.Parent.Arceus.ImageTransparency = 0
+	wait(1)
+	script.Parent.Parent.Arceus.ImageTransparency = 0.1
+	wait(0.1)
+	script.Parent.Parent.Arceus.ImageTransparency = 0.2
+	wait(0.1)
+	script.Parent.Parent.Arceus.ImageTransparency = 0.3
+	wait(0.1)
+	script.Parent.Parent.Arceus.ImageTransparency = 0.4
+	wait(0.1)
+	script.Parent.Parent.Arceus.ImageTransparency = 0.5
+	wait(0.1)
+	script.Parent.Parent.Arceus.ImageTransparency = 0.6
+	wait(0.1)
+	script.Parent.Parent.Arceus.ImageTransparency = 0.7
+	wait(0.1)
+	script.Parent.Parent.Arceus.ImageTransparency = 0.8
+	wait(0.1)
+	script.Parent.Parent.Arceus.ImageTransparency = 0.9
+	wait(0.1)
+	game.StarterGui:SetCore("ChatMakeSystemMessage", 
+	{
+	Text = "[MOBILIUS X]: Thanks for using Mobilius X.",
+	Color = Color3.fromRGB(0, 0, 0),
+	Font = Enum.Font.SourceSansBold,
+	TextSize = 18,
+	})
+	script.Parent.Parent.Arceus:Destroy()
+	wait(0.5)
+	script.Parent.Parent:TweenPosition(UDim2.new(-1.5, 0, 0, 0))
+	wait(1)
+	script.Parent.Parent.Parent:Destroy()
+	end)
+	script.Parent.Minimize.MouseButton1Down:Connect(function()
+	script.Parent.Parent:TweenPosition(UDim2.new(-1.5, 0, 0, 0))
+	wait(1)
+	script.Parent.Parent.Parent.Open:TweenPosition(UDim2.new(0, 0, 0.653, 0))
+	end)
+end
+coroutine.wrap(BNKR_fake_script)()
+local function JZZUAZ_fake_script() -- House.RippleEffect 
+	local script = Instance.new('LocalScript', House)
+
+	local RippleColor        = Color3.fromRGB(154, 154, 154) -- RGB Color of the ripple effect, you can change it.
+	local RippleTransparency = 0.8 ---------------------------- Max is 1, Min is 0
+	local PixelSize          = 2000 --------------------------- The Max size of the ripple in pixels
+	local TimeLength         = 0.9 ---------------------------- How long the ripple animation is
+	local FadeLength         = 1 ---------------------------- How long it takes for the ripple to fade out
+	
+	local frame = script.Parent
+	local rgb = Color3.fromRGB
+	local ud2 = UDim2.new
+	repeat
+		wait()
+	until game.Players.LocalPlayer
+	local plr = game.Players.LocalPlayer
+	local mouse = plr:GetMouse()
+	
+	frame.ClipsDescendants = true
+	frame.AutoButtonColor = false
+	
+	
+	function tweenInRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				TimeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				Size = ud2(0, PixelSize, 0, PixelSize);
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+		end)
+	end
+	
+	function fadeOutRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				FadeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				ImageTransparency = 1;
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+			wait(FadeLength + 0.1)
+			ripple:Destroy()
+		end)
+	end
+	
+	frame.MouseButton1Down:Connect(function()
+		local done = false
+		local ripple = script.Circle:Clone()
+		ripple.Parent = frame
+		ripple.ZIndex = frame.ZIndex + 1
+		ripple.ImageColor3 = RippleColor
+		ripple.ImageTransparency = RippleTransparency
+		tweenInRipple(ripple)
+		frame.MouseButton1Up:Connect(function()
+			if done == false then
+				done = true
+				fadeOutRipple(ripple)
+			end
+		end)
+		wait(4);
+		done = true;
+		fadeOutRipple(ripple) -- if it doesnt detect that it was unselected
+	end)
+end
+coroutine.wrap(JZZUAZ_fake_script)()
+local function KYCAPX_fake_script() -- House.LocalScript 
+	local script = Instance.new('LocalScript', House)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-56.5605621, 7.84999895, -39.3630104, -0.0209436677, 6.7711504e-08, 0.999780655, 6.02282171e-08, 1, -6.64646862e-08, -0.999780655, 5.88229909e-08, -0.0209436677)
+		game.StarterGui:SetCore("ChatMakeSystemMessage", 
+			{
+				Text = "[MOBILIUS X]: Teleported Successfully.",
+				Color = Color3.fromRGB(0, 0, 0),
+				Font = Enum.Font.SourceSansBold,
+				TextSize = 18,
+			})
+	end)
+end
+coroutine.wrap(KYCAPX_fake_script)()
+local function HUNXXR_fake_script() -- CatnipFarm.RippleEffect 
+	local script = Instance.new('LocalScript', CatnipFarm)
+
+	local RippleColor        = Color3.fromRGB(154, 154, 154) -- RGB Color of the ripple effect, you can change it.
+	local RippleTransparency = 0.8 ---------------------------- Max is 1, Min is 0
+	local PixelSize          = 2000 --------------------------- The Max size of the ripple in pixels
+	local TimeLength         = 0.9 ---------------------------- How long the ripple animation is
+	local FadeLength         = 1 ---------------------------- How long it takes for the ripple to fade out
+	
+	local frame = script.Parent
+	local rgb = Color3.fromRGB
+	local ud2 = UDim2.new
+	repeat
+		wait()
+	until game.Players.LocalPlayer
+	local plr = game.Players.LocalPlayer
+	local mouse = plr:GetMouse()
+	
+	frame.ClipsDescendants = true
+	frame.AutoButtonColor = false
+	
+	
+	function tweenInRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				TimeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				Size = ud2(0, PixelSize, 0, PixelSize);
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+		end)
+	end
+	
+	function fadeOutRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				FadeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				ImageTransparency = 1;
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+			wait(FadeLength + 0.1)
+			ripple:Destroy()
+		end)
+	end
+	
+	frame.MouseButton1Down:Connect(function()
+		local done = false
+		local ripple = script.Circle:Clone()
+		ripple.Parent = frame
+		ripple.ZIndex = frame.ZIndex + 1
+		ripple.ImageColor3 = RippleColor
+		ripple.ImageTransparency = RippleTransparency
+		tweenInRipple(ripple)
+		frame.MouseButton1Up:Connect(function()
+			if done == false then
+				done = true
+				fadeOutRipple(ripple)
+			end
+		end)
+		wait(4);
+		done = true;
+		fadeOutRipple(ripple) -- if it doesnt detect that it was unselected
+	end)
+end
+coroutine.wrap(HUNXXR_fake_script)()
+local function PYFSL_fake_script() -- CatnipFarm.LocalScript 
+	local script = Instance.new('LocalScript', CatnipFarm)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-96.781395, 3.49607062, -39.2817802, -0.00837274361, 1.20818733e-08, 0.999964952, 6.29865715e-09, 1, -1.20295578e-08, -0.999964952, 6.19771612e-09, -0.00837274361)
+		game.StarterGui:SetCore("ChatMakeSystemMessage", 
+			{
+				Text = "[MOBILIUS X]: Teleported Successfully.",
+				Color = Color3.fromRGB(0, 0, 0),
+				Font = Enum.Font.SourceSansBold,
+				TextSize = 18,
+			})
+	end)
+end
+coroutine.wrap(PYFSL_fake_script)()
+local function MRTLVMM_fake_script() -- SwordStand.RippleEffect 
+	local script = Instance.new('LocalScript', SwordStand)
+
+	local RippleColor        = Color3.fromRGB(154, 154, 154) -- RGB Color of the ripple effect, you can change it.
+	local RippleTransparency = 0.8 ---------------------------- Max is 1, Min is 0
+	local PixelSize          = 2000 --------------------------- The Max size of the ripple in pixels
+	local TimeLength         = 0.9 ---------------------------- How long the ripple animation is
+	local FadeLength         = 1 ---------------------------- How long it takes for the ripple to fade out
+	
+	local frame = script.Parent
+	local rgb = Color3.fromRGB
+	local ud2 = UDim2.new
+	repeat
+		wait()
+	until game.Players.LocalPlayer
+	local plr = game.Players.LocalPlayer
+	local mouse = plr:GetMouse()
+	
+	frame.ClipsDescendants = true
+	frame.AutoButtonColor = false
+	
+	
+	function tweenInRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				TimeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				Size = ud2(0, PixelSize, 0, PixelSize);
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+		end)
+	end
+	
+	function fadeOutRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				FadeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				ImageTransparency = 1;
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+			wait(FadeLength + 0.1)
+			ripple:Destroy()
+		end)
+	end
+	
+	frame.MouseButton1Down:Connect(function()
+		local done = false
+		local ripple = script.Circle:Clone()
+		ripple.Parent = frame
+		ripple.ZIndex = frame.ZIndex + 1
+		ripple.ImageColor3 = RippleColor
+		ripple.ImageTransparency = RippleTransparency
+		tweenInRipple(ripple)
+		frame.MouseButton1Up:Connect(function()
+			if done == false then
+				done = true
+				fadeOutRipple(ripple)
+			end
+		end)
+		wait(4);
+		done = true;
+		fadeOutRipple(ripple) -- if it doesnt detect that it was unselected
+	end)
+end
+coroutine.wrap(MRTLVMM_fake_script)()
+local function IILWOF_fake_script() -- SwordStand.LocalScript 
+	local script = Instance.new('LocalScript', SwordStand)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-14.0625744, 2.99999928, -70.8471069, 0.999973118, 0, 0.00733095687, 0, 1, 0, -0.00733095687, 0, 0.999973118)
+		game.StarterGui:SetCore("ChatMakeSystemMessage", 
+			{
+				Text = "[MOBILIUS X]: Teleported Successfully.",
+				Color = Color3.fromRGB(0, 0, 0),
+				Font = Enum.Font.SourceSansBold,
+				TextSize = 18,
+			})
+	end)
+end
+coroutine.wrap(IILWOF_fake_script)()
+local function VQSMBVS_fake_script() -- FishingStand.RippleEffect 
+	local script = Instance.new('LocalScript', FishingStand)
+
+	local RippleColor        = Color3.fromRGB(154, 154, 154) -- RGB Color of the ripple effect, you can change it.
+	local RippleTransparency = 0.8 ---------------------------- Max is 1, Min is 0
+	local PixelSize          = 2000 --------------------------- The Max size of the ripple in pixels
+	local TimeLength         = 0.9 ---------------------------- How long the ripple animation is
+	local FadeLength         = 1 ---------------------------- How long it takes for the ripple to fade out
+	
+	local frame = script.Parent
+	local rgb = Color3.fromRGB
+	local ud2 = UDim2.new
+	repeat
+		wait()
+	until game.Players.LocalPlayer
+	local plr = game.Players.LocalPlayer
+	local mouse = plr:GetMouse()
+	
+	frame.ClipsDescendants = true
+	frame.AutoButtonColor = false
+	
+	
+	function tweenInRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				TimeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				Size = ud2(0, PixelSize, 0, PixelSize);
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+		end)
+	end
+	
+	function fadeOutRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				FadeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				ImageTransparency = 1;
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+			wait(FadeLength + 0.1)
+			ripple:Destroy()
+		end)
+	end
+	
+	frame.MouseButton1Down:Connect(function()
+		local done = false
+		local ripple = script.Circle:Clone()
+		ripple.Parent = frame
+		ripple.ZIndex = frame.ZIndex + 1
+		ripple.ImageColor3 = RippleColor
+		ripple.ImageTransparency = RippleTransparency
+		tweenInRipple(ripple)
+		frame.MouseButton1Up:Connect(function()
+			if done == false then
+				done = true
+				fadeOutRipple(ripple)
+			end
+		end)
+		wait(4);
+		done = true;
+		fadeOutRipple(ripple) -- if it doesnt detect that it was unselected
+	end)
+end
+coroutine.wrap(VQSMBVS_fake_script)()
+local function IYFXZTE_fake_script() -- FishingStand.LocalScript 
+	local script = Instance.new('LocalScript', FishingStand)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1.52704883, 2.99999928, -70.9313278, 0.999802053, 0, -0.019897569, 0, 1, 0, 0.019897569, 0, 0.999802053)
+		game.StarterGui:SetCore("ChatMakeSystemMessage", 
+			{
+				Text = "[MOBILIUS X]: Teleported Successfully.",
+				Color = Color3.fromRGB(0, 0, 0),
+				Font = Enum.Font.SourceSansBold,
+				TextSize = 18,
+			})
+	end)
+end
+coroutine.wrap(IYFXZTE_fake_script)()
+local function EGJPHH_fake_script() -- Mailbox.RippleEffect 
+	local script = Instance.new('LocalScript', Mailbox)
+
+	local RippleColor        = Color3.fromRGB(154, 154, 154) -- RGB Color of the ripple effect, you can change it.
+	local RippleTransparency = 0.8 ---------------------------- Max is 1, Min is 0
+	local PixelSize          = 2000 --------------------------- The Max size of the ripple in pixels
+	local TimeLength         = 0.9 ---------------------------- How long the ripple animation is
+	local FadeLength         = 1 ---------------------------- How long it takes for the ripple to fade out
+	
+	local frame = script.Parent
+	local rgb = Color3.fromRGB
+	local ud2 = UDim2.new
+	repeat
+		wait()
+	until game.Players.LocalPlayer
+	local plr = game.Players.LocalPlayer
+	local mouse = plr:GetMouse()
+	
+	frame.ClipsDescendants = true
+	frame.AutoButtonColor = false
+	
+	
+	function tweenInRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				TimeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				Size = ud2(0, PixelSize, 0, PixelSize);
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+		end)
+	end
+	
+	function fadeOutRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				FadeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				ImageTransparency = 1;
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+			wait(FadeLength + 0.1)
+			ripple:Destroy()
+		end)
+	end
+	
+	frame.MouseButton1Down:Connect(function()
+		local done = false
+		local ripple = script.Circle:Clone()
+		ripple.Parent = frame
+		ripple.ZIndex = frame.ZIndex + 1
+		ripple.ImageColor3 = RippleColor
+		ripple.ImageTransparency = RippleTransparency
+		tweenInRipple(ripple)
+		frame.MouseButton1Up:Connect(function()
+			if done == false then
+				done = true
+				fadeOutRipple(ripple)
+			end
+		end)
+		wait(4);
+		done = true;
+		fadeOutRipple(ripple) -- if it doesnt detect that it was unselected
+	end)
+end
+coroutine.wrap(EGJPHH_fake_script)()
+local function PKTOFD_fake_script() -- Mailbox.LocalScript 
+	local script = Instance.new('LocalScript', Mailbox)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6.04830885, 3.09999967, -52.0882988, 0.999841571, 0, 0.017800197, 0, 1, 0, -0.017800197, 0, 0.999841571)
+		game.StarterGui:SetCore("ChatMakeSystemMessage", 
+			{
+				Text = "[MOBILIUS X]: Teleported Successfully.",
+				Color = Color3.fromRGB(0, 0, 0),
+				Font = Enum.Font.SourceSansBold,
+				TextSize = 18,
+			})
+	end)
+end
+coroutine.wrap(PKTOFD_fake_script)()
+local function LBBLND_fake_script() -- Main.ExecuteMessage 
+	local script = Instance.new('LocalScript', Main)
+
+	game.StarterGui:SetCore("ChatMakeSystemMessage", 
+	{
+	Text = "[MOBILIUS X]: Loaded Gui Successfully.",
+	Color = Color3.fromRGB(0, 0, 0),
+	Font = Enum.Font.SourceSansBold,
+	TextSize = 18,
+	})
+	script:Destroy()
+end
+coroutine.wrap(LBBLND_fake_script)()
+local function YFCJFSA_fake_script() -- MobiliusX.DeviceCheck 
+	local script = Instance.new('LocalScript', MobiliusX)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	if UserInputService.TouchEnabled == true then
+		script.Parent.Enabled = true
+		print("[MOBILIUS X]: Mobile user detected. Executing script...")
+		script:Destroy()
+	elseif UserInputService.TouchEnabled == false then
+		script.Parent.Enabled = false
+		print("[MOBILIUS X]: User not on mobile device. Kicking user...")
+		game.Players.LocalPlayer:Kick("\nMobilius X only works on mobile.\n(Arceus X required)")
+		script.Parent:Destroy()
+	end
+end
+coroutine.wrap(YFCJFSA_fake_script)()
+local function CKGGEY_fake_script() -- Open.LocalScript 
+	local script = Instance.new('LocalScript', Open)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent:TweenPosition(UDim2.new(-1.5, 0, 0.653, 0))
+		wait(1)
+		script.Parent.Parent.Main:TweenPosition(UDim2.new(0.14, 0,0.348, 0))
+	end)
+end
+coroutine.wrap(CKGGEY_fake_script)()
+local function MKDZ_fake_script() -- MobiliusX.GameCheck 
+	local script = Instance.new('LocalScript', MobiliusX)
+
+	if game.GameId == 9203864304 then
+	else
+		print("[MOBILIUS X]: Incorrect Game. Kicking user...")
+		game.Players.LocalPlayer:Kick("\n[Mobilius X]\nIncorrect Game")
+	end
+end
+coroutine.wrap(MKDZ_fake_script)()
